@@ -23,7 +23,7 @@ public class main {
     public static int maxFinder(int[] numbers){
         int max = 0;
 
-        for(int i = 0; i < numbers.length-1; i++){
+        for(int i = 0; i < numbers.length; i++){
             if (numbers[i] > max) {
                 max = numbers[i];
             }
